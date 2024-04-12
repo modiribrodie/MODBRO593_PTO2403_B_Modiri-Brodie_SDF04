@@ -51,4 +51,39 @@ p {
     outline: none;
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1 {
+color: white;
+background-color: rgb(64, 64, 230);
+border-color: rgb(251, 2, 255);
+}
+
+.btn-1:hover {
+color: black;
+background-color: rgb(231, 163, 174);
+border-color: cornflowerblue;
+}
+
+.btn-2 {
+color:rgb(190, 31, 31) ;
+background-image: linear-gradient(to left, transparent 50%, #060000 50%) ;
+background-size: 200%;
+background-position: 0%;
+}
+
+.btn-2:hover {
+    color: rgb(0, 255, 255);
+    border-color: #eeefed;
+    background-color: green;
+    background-position: 100%;
+}
+.btn-3 {
+    background-color: gold;
+    background-image: linear-gradient(to top, transparent 50%, #f6480f 50%);
+    background-size: 100% 200%;
+background-position: 0 100%;
+}
+
+.btn-3:hover {
+    color: dimgrey;
+    background-position: 0% 0%;
+}
